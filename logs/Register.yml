@@ -1,0 +1,11 @@
+-
+  url : /mcenter/im/v1.0/a/user/register
+  method : post
+  data :
+    userName : "小罗开发"
+    userPortrait : "http://westripuser.bj.bcebos.com/iOS_avatar3089"
+    channelId : 1000
+    userType: 1
+  check :
+    - 小罗开发
+

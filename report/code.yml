@@ -1,0 +1,8 @@
+-
+  url :  /basicdata/v1.0/p/countries
+  method : get
+  detail :
+  check :
+    - area_code
+    - code
+    - country_id

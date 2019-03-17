@@ -1,0 +1,38 @@
+-
+  url : /ucenter/captcha/send
+  method : post
+  data :
+    areaCode : 86
+    mobile : 13718178439
+    captchaType : 3
+    codeType: 1
+  check :
+    code : 200
+    success : true
+  is_json: 1
+
+-
+  url : /ucenter/captcha/send
+  method : post
+  data :
+    areaCode : 86
+    mobile : 1371817843
+    captchaType : 3
+    codeType: 1
+  check :
+    code : 803
+    desc : "验证码发送失败，请重试"
+  is_json: 1
+
+
+#  -
+#  url : http://api-dev.westrip.com.cn/ucenter/captcha/send
+#  method : post
+#  data :
+#    areaCode : 86
+#    mobile : 13718178439
+#    captchaType : 3
+#    codeType: 2  语音验证
+#  check :
+#    - True
+#  is_json: 1

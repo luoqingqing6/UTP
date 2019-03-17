@@ -1,0 +1,7 @@
+-
+  url : /basicdata/v1.0/p/city/foreign?&type=1
+  method : get
+  detail : 获取城市列表
+  check :
+    - A
+    - Z

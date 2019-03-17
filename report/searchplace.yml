@@ -1,0 +1,19 @@
+-
+  url :  /basicdata/v1.0/maps/place/search?
+  method : get
+  detail : 有搜索内容
+  data :
+    keyword : "酒店"
+    cityId : "239"
+  check :
+    - 处理成功
+
+-
+  url :  /basicdata/v1.0detail/maps/place/search?
+  method : get
+  detail : 无搜索内容
+  data :
+    keyword : "测试"
+    cityId : "239"
+  check :
+    - 201

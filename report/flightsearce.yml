@@ -1,0 +1,21 @@
+-
+  url : /basicdata/v1.0/p/flights/fnums?
+  method : get
+  data :
+    flightNo : SQ801
+    date : 2019-03-31
+    orderType : 1
+  check :
+    - arrAirport
+    - arrAirportCode
+
+-
+  url : /basicdata/v1.0/p/flights/fnums?
+  method : get
+  data :
+    flightNo : SQ801
+    date : 2019-03-1
+    orderType : 1
+  check :
+    code : 201
+    desc : 很抱歉，当地时间已过了您预订的服务时间，想服务但臣妾做不到啊...

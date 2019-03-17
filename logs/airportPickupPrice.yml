@@ -1,0 +1,29 @@
+-
+  url : /price/v1.0/c/airportPickupPrice
+  method : post
+  headers :
+    Content-Type : application/json
+  data :
+    endLocation : 1.2833754,103.8607264
+    flightNo : SQ801
+    arrAirport : 樟宜国际机场
+    isFireUrgent : 0
+    startAddressDetail : 樟宜国际机场
+    channelTypeId : 1001
+    startLocation : 1.36442,103.991531
+    depDate : 2019-03-15 00:10:00
+    airportCode : SIN
+    childNumber : 1
+    depAirportCode : PEK
+    flightDate : 2019-03-15 00:10:00
+    arrCityId : 239
+    serviceDate : 2019-03-15 06:45:00
+    destAddress : 滨海湾金沙
+    startAddress : 樟宜国际机场
+    destAddressDetail : 10 Bayfront Ave, 新加坡 018956
+    depAirport : 首都国际机场
+    adultNumber : 1
+
+  check :
+    - 小罗开发
+
