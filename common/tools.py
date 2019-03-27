@@ -28,6 +28,7 @@ class GetCase(object):
         base_case_str = open(CASE_EG,encoding='utf-8').read()#读取模板文件里面的内容
         for f in os.listdir(CASE_PATH):#data目录下用例文件
             if f.endswith('.yml') or f.endswith('.yaml'):#判断文件是不是以.yml或者.yaml结尾的
+            # if f.endswith(('.yml','.yaml')):
                 abs_path = os.path.join(CASE_PATH,f)#拼接用例文件的绝对路径
                 class_name = 'Test'+f.replace('.yml','').replace('.yaml','').capitalize()
                 #把.yml和.yaml替换成空
